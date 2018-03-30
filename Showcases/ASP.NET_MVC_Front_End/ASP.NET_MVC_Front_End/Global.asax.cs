@@ -6,14 +6,13 @@ namespace MvcSample
 {
     public class MvcApplication : System.Web.HttpApplication
     {
-        private string _licensePath = "D:\\GroupDocs.Viewer.lic";
+        private string _licensePath = "D:\\GroupDocs.Total.lic";
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
 
             GroupDocs.Viewer.License lic = new GroupDocs.Viewer.License();
             lic.SetLicense(_licensePath);

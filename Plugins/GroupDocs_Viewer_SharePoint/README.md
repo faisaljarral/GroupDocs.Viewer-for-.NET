@@ -1,32 +1,21 @@
-# GroupDocs.Viewer for Java Front End
+# GroupDocs.Viewer for .NET Modern WebPart
 
-This application allows user to view document in Html and Image representation. User can view thumbnails, view pagination, zoom in, zoom out, download and print document.
+This application allows user to view document in Html and Image representation. User can view thumbnails, download and print document. It demonstrates how GroupDocs.Viewer for .NET front end can be integrated with SharePoint.
 
-# Pre-Requisites
+# Modern WebPart Requirements
 
-* Eclipse Mars.
-* Java Verion 1.5 or above.
-* JDK Verison 1.5 or above.
-* Jetty Version 9.3.0.
-* Maven 4.0.0.
-* Spring Framework 4.2.5.
-* Any latest browsers (Firefox, Chrome ,IE9 or greater, Safari etc. )
-* GroupDocs.Viewer 3.0.0 for Java.
+* SharePoint Server 2013
+* Visual Studio 2010, 2012, 2013, 2015
+* Any standard web-browser, including IE8+, Mozilla Firefox, Chrome, Opera, Safari5
 
-# How to Run Application
+# How to Run WebPart
 
-1. Download the code, import as maven project in eclipse. 
-2. Download *GroupDocs.Viewer 3.0.0 for Java*.
-3. Update maven dependencies.
-4. Run As maven; Goals "Jetty:run".
-5. Goto browser and type "localhost:8080/action".
+* Open GroupDocs.Viewer Modern WebPart in your visual studio.
+* Open project properties, set your Site URL.
+* Set Site URL in Home.aspx and set it as Start Page.
+* Set your license path in Home.aspx.cs
+* Click Run.
 
-# Apply Licence
-
-Follow below steps if you have product license
-
-1. Open ViewerController.java.
-2. Set "_licensePath" variable to your license path. 
 
 
 
